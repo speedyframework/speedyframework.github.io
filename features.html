@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script async
+	src="https://www.googletagmanager.com/gtag/js?id=UA-2803864-5"></script>
+<script src="assets/js/gtag-local.js"></script>
+<meta charset="utf-8">
+<title>Speedy Framework - Features</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- styles -->
+<link
+	href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext"
+	rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css"
+	rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/color/default.css" rel="stylesheet">
+
+<!-- fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<!-- Cookie Consent -->
+<link rel="stylesheet" type="text/css"
+	href="cookie/cookieconsent.min.css" />
+<link rel="stylesheet" type="text/css" href="cookie/override.css" />
+<script src="cookie/cookieconsent.min.js"></script>
+<script>
+	window.addEventListener("load", function() {
+		window.cookieconsent.initialise({
+			"palette" : {
+				"popup" : {
+					"background" : "#b00932"
+				},
+				"button" : {
+					"background" : "#f58345",
+					"text" : "#ffffff"
+				}
+			},
+			"content" : {
+				"href" : "legal/Cookies_Policy.html"
+			},
+			"position" : "bottom-right"
+		})
+	});
+</script>
+<!-- End of Cookie Consent -->
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+	<header>
+		<!-- Navbar
+    ================================================== -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- logo -->
+					<a class="brand logo" href="index.html"><img
+						src="assets/img/speedy_framework_logo.png" width="300px" alt=""></a>
+					<!-- end logo -->
+					<!-- top menu -->
+					<div class="navigation">
+						<nav>
+							<ul class="nav topnav">
+								<li class="dropdown active"><a href="#">Platform</a>
+									<ul class="dropdown-menu">
+										<li><a href="index.html">Overview</a></li>
+										<li><a href="features.html">Features</a></li>
+										<li><a href="releases.html">Releases</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Learn</a>
+									<ul class="dropdown-menu">
+										<li><a href="quickstart.html">Getting Started</a></li>
+										<li><a href="comingsoon.html">Reference Documentation</a></li>
+										<li><a href="http://sampler.speedyframework.com"
+											target="_blank">Sampler</a></li>
+										<li><a href="http://showcase.speedyframework.com"
+											target="_blank">Showcase</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Community</a>
+									<ul class="dropdown-menu">
+										<li><a href="http://blog.speedyframework.com"
+											target="_blank">Blog</a></li>
+										<li><a href="http://forum.speedyframework.com"
+											target="_blank">Forum</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Services</a>
+									<ul class="dropdown-menu">
+										<li><a href="support.html">Support</a></li>
+										<li><a href="consulting.html">Consulting</a></li>
+									</ul></li>
+								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<!-- 
+								<li><a href="features.tr.html"><img
+										src="assets/img/lang/tr.png" /> Türkçe</a></li>
+										 -->
+							</ul>
+						</nav>
+					</div>
+					<!-- end menu -->
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Subhead
+================================================== -->
+	<section id="subintro">
+		<div class="jumbotron subhead" id="overview">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="centered">
+							<h3>Features In Detail</h3>
+							<div class="overview">In addition to business requirements,
+								modern web-based multi-tiered enterprise applications also have
+								tons of recurring middleware issues, which imply additional work
+								for application developers to tackle with. Speedy Framework
+								contains dozens of features to fulfill those requirements. You
+								can review the list below to learn what Speedy provides for all
+								enterprise applications in detail.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="span12 tagline centered overview">
+				<div class="emphasize" style="padding:0px;">
+					<a href="http://showcase.speedyframework.com" target="_blank">
+						See Speedy Showcase In Action </a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Docs nav
+    ================================================== -->
+		<div class="row">
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li><a href="#persistence"><i class="icon-chevron-right"></i>
+							Persistence</a></li>
+					<li><a href="#security"><i class="icon-chevron-right"></i>
+							Security</a></li>
+					<li><a href="#i18n"><i class="icon-chevron-right"></i>
+							Localization</a></li>
+					<li><a href="#auditing"><i class="icon-chevron-right"></i>
+							Audit Logging</a></li>
+					<li><a href="#monitoring"><i class="icon-chevron-right"></i>
+							Performance Monitoring</a></li>
+					<li><a href="#reporting"><i class="icon-chevron-right"></i>
+							Reporting</a></li>
+					<li><a href="#ui"><i class="icon-chevron-right"></i> User
+							Interface</a></li>
+					<li><a href="#validation"><i class="icon-chevron-right"></i>
+							Validation</a></li>
+					<li><a href="#email"><i class="icon-chevron-right"></i>
+							Email</a></li>
+					<li><a href="#help"><i class="icon-chevron-right"></i>
+							Help</a></li>
+					<li><a href="#file"><i class="icon-chevron-right"></i>
+							Documents</a></li>
+					<li><a href="#cache"><i class="icon-chevron-right"></i>
+							Cache</a></li>
+					<li><a href="#others"><i class="icon-chevron-right"></i>
+							Others</a></li>
+				</ul>
+			</div>
+			<div class="span9">
+
+				<section id="persistence" class="doc">
+					<div class="page-header">
+						<h3>Persistence</h3>
+					</div>
+					<h5>Simultaneous JDBC and JPA Support</h5>
+					<p>The data access layer components developed with Speedy can
+						employ both JPA and JDBC simultaneously. Transactions can span DAO
+						components using any of those two strategies. In addition, you can
+						configure each module's data access preference independently.</p>
+					<h5>Pure JDBC Access without SQL Boilerplate</h5>
+					<p>JDBC infrastructure provides a light-weight ORM mechanism
+						that is sufficient to map relational tables to domain classes. By
+						mapping domain classes to database tables, you can perform
+						database CRUD operations and query data without SQL boilerplate.
+						Not only do you query individual tables, you can also perform
+						advanced queries that join multiple tables as well.</p>
+					<h5>Multitenancy Support</h5>
+					<p>Speedy Framework facilitates the development of multi-tenant
+						applications that serve multiple tenants and use the same database
+						for all of them. Although the private data of tenants is strictly
+						isolated, the interaction between tenants is possible for
+						administrative purposes. Speedy Framework provides administrative
+						screens to manage tenants and you can use them in your projects.
+					<p>The first step for multitenancy is to identify the current
+						tenant from the authenticated user. After logging in, it must be
+						identified and stored in a context for the use of various modules.
+						Of course, after closing the session, it must be removed from the
+						context. Speedy Framework identifies the current tenant from
+						username which is given as user@tenant format. This identification
+						strategy can be customized according to the needs of the
+						application.</p>
+					<h5>Base Domain Classes</h5>
+					<p>Speedy Framework provides base classes for entities and
+						value objects and fulfills multi-tenancy, optimistic locking and
+						soft delete requirements for objects of classes derived from them
+						regardless of underlying persistence mechanism, JDBC or JPA.</p>
+					<h5>EntityDao and EntityService</h5>
+					<p>The EntityDao and EntityService classes are designed to
+						execute CRUD operations for any entity, regardless of type. You
+						can perform CRUD operations without writing a single line of code
+						for DAO and service layers. In particular, it facilitates
+						prototyping in the early stages of the development process.</p>
+					<h5>Search Criteria API</h5>
+					<p>The search criteria API allows you to query entities for
+						both JDBC and JPA. The UI layer's search capabilities often use
+						this facility at the backend, and this abstraction makes these UI
+						components independent of the data access infrastructure details.</p>
+					<h5>Paging and Lazy List</h5>
+					<p>Database tables can hold millions of records, but UI
+						components cannot handle all at once. Therefore, enterprise
+						applications mostly use paging and lazy loading solutions. The
+						Speedy Framework provides a pageable query structure and offers a
+						lazy list. The lazy list can be seen as a specific java list
+						implementation that holds only some records from the underlying
+						data source and loads the remaining on demand. You can use it as
+						simple as any ordinary list implementation without thinking about
+						underlying lazy loading details.</p>
+					<h5>Soft Delete</h5>
+					<p>Instead of deleting mission-critical data from database,
+						Soft-delete facility can be used to deactivate it by marking as
+						deleted. This data can be restored and activated again or
+						permanently deleted.</p>
+					<h5>Refreshing Beans After Mission-critical Data Changes</h5>
+					<p>The application context may contain some beans configured
+						according to some data, and this data can be changed at run time.
+						In this case, these beans should be informed and allowed to adjust
+						their status for new conditions. You can annotate these kind of
+						beans, so they can be refreshed when some critical data is changed
+						and certain events are fired. Some security features use this
+						facility to activate configuration changes immediately.</p>
+					<h5>Sample Data Provider</h5>
+					<p>In addition to Spring Boot's script-based data population
+						mechanism, Speedy Framework supports programmatic sample data
+						population mechanism that enables the use of several services and
+						DAO beans. You can generate sample data without SQL.</p>
+					<h5>H2 Database Debugger</h5>
+					<p>H2 is a lightweight Java-based database that can store data
+						in memory or in a file system. While running your application, you
+						can use Spring Boot's activator to investigate the data in the H2
+						database. Beside this, with Speedy Framework's H2Debugger, you can
+						intercept any method invocation and open the H2-Console from the
+						code. H2-Console opens in the default browser and you can see the
+						data in the current active transaction. This can be used to
+						investigate the data generated by transactional test methods that
+						will eventually be rolled back at the end of the test.</p>
+				</section>
+
+				<section id="security" class="doc">
+					<div class="page-header">
+						<h3>Security</h3>
+					</div>
+					<h5>Users, Roles and Groups</h5>
+					<p>Management screens are available for users, roles, and
+						groups. Using these screens, administrators can create new records
+						or modify or delete existing ones. They can also build role and
+						group hierarchies, assign roles, add users to groups and reset
+						users' passwords. The Speedy Framework sends users an automatic
+						e-mail after the account creation and password reset. Users can
+						update their profiles and change existing passwords.</p>
+					<h5>Access Control Lists and Resource Level Security</h5>
+					<p>Access control lists are widely used to manage restrictions
+						for critical secure resources. You can use access control lists
+						for any resource in your Speedy applications. The management
+						screens simplify the configuration of access control lists and
+						allow them to be updated at run time.</p>
+					<h5>Security Events and Security Audit Logs</h5>
+					<p>Security events are automatically published in
+						authentication and authorization processes. These events are
+						captured, security audit logs are created from them and these logs
+						are saved for further analysis. Speedy Framework provides
+						administrative screens for searching and browsing security audit
+						logs. You can also handle these security events and apply detailed
+						analysis for your own projects.</p>
+					<h5>Updating Http Security in Runtime</h5>
+					<p>Spring Security can be configured to intercept urls and
+						apply some restrictions. Speedy Framework makes this configuration
+						updatable. You can change access configuration in runtime.</p>
+					<h5>Redirection After Login</h5>
+					<p>Enterprise applications can have a variety of users and
+						their main focal points may differ from each other. For example,
+						while the customer management screen may be the main screen for
+						sales representatives, this screen has no special priority for a
+						human resources specialist. The most important screen for him may
+						be a screen related to organization hierarchy. With Speedy
+						Framework's redirection feature, you can direct salespeople to the
+						customer management screen and human resources specialists to the
+						organization management screen.</p>
+					<h5>Access Restriction to Login Page for Authenticated Users</h5>
+					<p>Attempts to access the login page after successful
+						authentication doesn't make sense and, can be confusing in some
+						cases. Therefore, Speedy Framework doesn't allow authenticated
+						users to access the login page and redirects them to the
+						application's homepage.</p>
+					<h5>Bypassing Authentication</h5>
+					<p>During development, developers often want to see what they
+						are developing, so they run the application repeatedly as a
+						particular user. After some repetitions, the login process for
+						each attempt can be annoying. Speedy Framework makes it possible
+						for a particular user to skip the login process, so developers can
+						access the homepage directly without logging in. This feature
+						significantly speeds up the development process.</p>
+					<h5>User Substitution</h5>
+					<p>Users can perform some operations on behalf of other users.
+						Substitution rules can be configured and audit logs hold
+						information related with both actual user and substituted user.</p>
+					<h5>Captcha Support</h5>
+					<p>Captcha strengthens security by eliminating repetitive
+						malicious access attempts to steal user passwords. It guarantees
+						that the authenticated user is not a machine, but a real person.
+						Speedy Framework provides captcha validation support and this can
+						be activated/deactivated easily.</p>
+					<h5>IP Restrictions</h5>
+					<p>Enterprise applications are generally security-sensitive
+						applications, and restricting some users to access from outside a
+						particular region is a common security requirement. Speedy
+						Framework applies IP checks by default. If you want to allow some
+						users to login from a specific IP block, simply enter this IP
+						block from user management screen.</p>
+					<h5>Password Management</h5>
+					<p>Enterprise applications are subject to strict security
+						policies. Managing user secrets takes part in the heart of them.
+						Thanks to Spring Security, most of requirements to keep them safe
+						are met by default. Speedy Framework makes Spring Security's
+						capabilities more useful, and adds some supporting features.
+					<p>Passwords should be considered valid within a period of time
+						and must be changed periodically. Speedy Framework checks the
+						expiration time and directs the current user to the password
+						change screen.
+					<p>System administrators can be allowed/forbidden to define a
+						password for other users. They can only be restricted to reset
+						other users' passwords; so that the passwords can be stored as a
+						secret known to the owners. After resetting a password, the
+						generated password is sent to the user by e-mail and the system
+						administrator does not see the user's new password.</p>
+					<h5>Page Level Security</h5>
+					<p>Speedy Framework introduces configurative page level
+						security. Read or write access to any UI field and actions on any
+						page can be restricted for individual users, roles or user groups.
+					</p>
+					<h5>Root Access</h5>
+					<p>Root access in computer systems provides unlimited access to
+						any file, and the root user can do anything within the system.
+						Speedy Framework uses this concept for enterprise applications.
+						For unlimited access to anything within the application, Speedy
+						Framework offers a root user and a root role. This feature
+						significantly speeds up the development process and can be
+						enabled/disabled easily.</p>
+				</section>
+
+				<section id="i18n" class="doc">
+					<div class="page-header">
+						<h3>Localization</h3>
+					</div>
+					<p>Spring's MessageSource is a powerfull i18n feature for
+						enterprise applications. It resolves localized messages from
+						*.properties files and allows them to be reloaded for changes in
+						these files. Speedy Framework takes this feature a step further
+						and allows administrators to update localized messages from
+						screens at runtime. Additionally, new language supports can be
+						added. The dynamic user interface and reporting capabilities of
+						Speedy Framework allow screens and reports to be redesigned from
+						scratch, and these screens and reports can be easily
+						internationalized with this feature.
+					<p>Although MessageSource bean is a Spring managed bean,
+						libraries that are not familiar with Spring, such as reporting,
+						can use it as a ResourceBundle.
+					<p>The current user's locale can be determined from user
+						preferences, from request or from a cookie and can be changed from
+						the user interface. Others modules are automatically notified for
+						locale changes and they can adjust themselves according to new
+						locale settings.
+					<p>Captions for UI components can be localized declaratively by
+						specifiying message key and their localized values are
+						automatically displayed according to the given key.</p>
+					<h5>Localized Enum Values</h5>
+					<p>Enum values can be easily localized. If a localized message
+						exists with the fully qualified name of the enum, Speedy Framework
+						displays it.</p>
+					<h5>Localized Exceptions</h5>
+					<p>For message aware runtime exception instances, localized
+						messages are displayed on the screen.</p>
+					<h5>Updating Regional Settings</h5>
+					<p>The user profile screen contains a section for regional
+						settings and users can change their default language, country,
+						time-zone and currency preferences.</p>
+				</section>
+
+				<section id="auditing" class="doc">
+					<div class="page-header">
+						<h3>Audit Logging</h3>
+					</div>
+					<p>Service and entity level audit logging can be configured
+						declaratively and system adminitrators can keep track of method
+						invocations and can see which part of any entity has been changed
+						by whom and when. Audit log records can be categorized and each
+						module can add new categories to the system. Audit log records can
+						be analyzed on the screen.</p>
+
+				</section>
+
+				<section id="monitoring" class="doc">
+					<div class="page-header">
+						<h3>Performance Monitoring</h3>
+					</div>
+					<p>Speedy Framework can collect runtime statistics such as
+						minimum, maximum and average execution times for methods.
+						Administrators can analyze them on the screen and capture clues
+						for bottlenecks. Methods that are subject to performance
+						monitoring can be defined declaratively by XML and annotations.
+						Performance monitoring can be activated/deactivated on the screen
+						at runtime.</p>
+				</section>
+
+				<section id="reporting" class="doc">
+					<div class="page-header">
+						<h3>Reporting</h3>
+					</div>
+					<p>Speedy Framework provides a production-ready reporting
+						screen. This screen allows users to enter report parameters and
+						generate reports in various formats such as PDF, XLS, DOC and
+						HTML. Users can view, download, or send the report directly as an
+						e-mail attachment.
+					<p>Reporting screen also allows administrators to configure
+						access restrictions for reports. Access restrictions use
+						resource-level security infrastructure and access control lists.</p>
+					<h5>Report Designer</h5>
+					<p>New reports can be designed from scratch on-demand and
+						existing reports can be modified completely. Visual modifications
+						can be done easily by dragging and dropping report elements.</p>
+					<h5>Reporting Server</h5>
+					<p>Speedy Framework exposes an endpoint to fulfill report
+						requests. Users can send reporting queries to this endpoint and
+						receive the generated report in response. They can save report
+						queries and recreate the same report. Thereby, changes in data can
+						be monitored over a time period. This feature is also useful for
+						interactive drill-down reports. Report rows can contain links to
+						detailed reports and these links can be used even in PDF or XLS
+						formats.</p>
+
+				</section>
+
+				<section id="ui" class="doc">
+					<div class="page-header">
+						<h3>User Interface</h3>
+					</div>
+					<h5>Model View Presenter and Events</h5>
+					<p>Thanks to Vaadin, UI components can be easily implemented
+						with Java. However this should not encourage developers to write
+						all code in their UI classes. The logic of appearance and
+						presentation should be separated. MVP (Model-View-Presenter)
+						recommends this. Speedy takes this up seriously and strongly
+						encourages using MVP for UI components.
+					<p>Todays interactive web applications require UI components to
+						comunicate with each other. This forces them to be coupled with
+						other components, making it difficult to manage the code. To
+						eliminate this unwanted dependency and simplify the interaction
+						between UI components, Speedy Framework offers an event bus.
+						Published events are also multicasted through Spring's application
+						event publisher and they can be handled by Spring's event listener
+						beans.</p>
+					<h5>Production-ready Pages for Home, Login and Error</h5>
+					<p>The first impression is essential and the homepage gives the
+						first impression of web applications. Production-ready homepage,
+						login page and error page implementations are presented to you by
+						Speedy Framework in advance. You can use, customize or completely
+						replace them for your projects. Their layouts can be redesigned
+						with UI Designer at runtime.</p>
+					<h5>Dynamic UI Design</h5>
+					<p>Placement of UI components in pages can be configured easily
+						by dragging and dropping. Speedy Framework provides ready to use
+						UI templates, but it doesn't enforce any fixed UI design.</p>
+					<h5>Information and Confirmation Messages</h5>
+					<p>Speedy Framework provides an infrastructure for information
+						and confirmation messages. Localized information and error
+						messages are automatically displayed according to the outcome of
+						the service layer. The approval (confirmation) flow is performed
+						automatically for annotated presenter methods.</p>
+					<h5>Uncaught Exceptions</h5>
+					<p>Unhandled exceptions are processed just before the response
+						is returned and an appropriate error message is automatically
+						displayed. If a localized error message can be resolved, it is
+						displayed. Otherwise, Speedy Framework displays a general error
+						message so that the user scenario is executed without crash.
+						Message aware runtime exceptions and errors related with access
+						denial and data integrity violations can be easily converted to
+						localized error messages.</p>
+					<h5>Declarative model binding</h5>
+					<p>Speedy Framework introduces declarative model binding for
+						annotated UI fields. You can also bind nested complex objects to
+						UI components declaratively.</p>
+					<h5>Dirty Checking</h5>
+					<p>For web based enterprise applications, it is important to
+						alert the user for unsaved changes before exiting the current
+						scenario. Speedy Framework provides a built-in mechanism for
+						dirty-checking before navigation.</p>
+					<h5>List and Detail Templates for CRUD</h5>
+					<p>For an enterprise application, the majority of use cases can
+						be classified as CRUD. CRUD scenarios require a search and
+						filtering featured list for records. They also require detailed
+						form components to edit the records. Speedy Framework provides
+						list and detail templates ready for use. You can implement
+						fully-featured CRUD scenarios including search, listing, creation,
+						updating and deletion in a few minutes. These templates use
+						EntityService and EntityDao at the back end so you don't need to
+						implement anything for the service and dao layers. List and detail
+						templates come with built-in paging, filtering and bulk processing
+						capabilities and their layouts can be customized with UI Designer.</p>
+					<h5>Application Menu and Navigation</h5>
+					<p>Speedy Framework creates an application menu by scanning
+						annotated page classes. Annotations are also used for navigation
+						and breadcrumb configuration. UI modules use this infrastructure
+						to place their administrative pages in appropriate positions in
+						the application menu. The placements, titles, and icons of menu
+						items can be changed by administrators at run time.</p>
+					<h5>Dashboard</h5>
+					<p>You can implement several small UI widgets for your
+						application and display them with Speedy Framework's built-in
+						dashboard. Application level dashboard can be customized for each
+						user independently.</p>
+					<h5>View Model</h5>
+					<p>Speedy Framework introduces a proxy-based mechanism for
+						enriching pojos with new capabilities such as dirty-checking and
+						change-tracking. Dirty-checking allows detection of unsaved
+						changes and change-tracking makes it possible to handle old and
+						new values of fields and added/removed items of collections.</p>
+					<h5>Tool Bar</h5>
+					<p>Annotated methods can be used for building tool bars. The
+						captions and visual features of the tool bar buttons can be
+						customized and they can be enabled or disabled according to page
+						level security configuration. Speedy Framework handles them
+						automatically by using declarations given by method level
+						annotations and you can override these declarations.</p>
+					<h5>Testing UI Components</h5>
+					<p>Vaadin Test Bench simplifies the UI tests. If you have a
+						Vaadin Test Bench license and want to use it for your projects you
+						can also take advantage of Speedy Framework's additional UI
+						testing capabilities such as application bootstrapping, automatic
+						web driver management and pause option after test scenarios.</p>
+				</section>
+
+				<section id="validation" class="doc">
+					<div class="page-header">
+						<h3>Validation</h3>
+					</div>
+					<p>Speedy Framework provides service level declarative and
+						entity level programmatic validation capabilities based on JSR-303
+						validation specs. Validation errors from service level validation
+						checks can be displayed as localized error messages and the
+						corresponding UI components can be marked.</p>
+
+				</section>
+
+				<section id="email" class="doc">
+					<div class="page-header">
+						<h3>Email</h3>
+					</div>
+					<p>Speedy Framework supports both synchronous and asynchronous
+						email sending. In case any error in synchronous sending, the user
+						is alerted directly. For asynchronous mails, Speedy Framework
+						retries to send again in a few minutes. Administrators can list
+						all emails created in the system. They can edit them or compose
+						new mails.</p>
+
+				</section>
+
+				<section id="help" class="doc">
+					<div class="page-header">
+						<h3>Help</h3>
+					</div>
+					<h5>Context Sensitive Help</h5>
+					<p>Speedy Framework provides context-sensitive, multilingual
+						help facilities. Help content can be stored in the database or
+						file system and can be accessed via the REST API.</p>
+
+				</section>
+
+				<section id="file" class="doc">
+					<div class="page-header">
+						<h3>Documents</h3>
+					</div>
+					<p>Most enterprise applications are in close contact with
+						documents and files. Speedy Framework introduces a REST based API
+						for document uploading, downloading, updating content and
+						versioning. You can store documents in the database or file
+						system.</p>
+
+				</section>
+
+				<section id="cache" class="doc">
+					<div class="page-header">
+						<h3>Cache</h3>
+					</div>
+					<p>Speedy Framework simplifies multi-tenant access to caches
+						and allows debugging cache content at runtime.</p>
+
+				</section>
+
+				<section id="others" class="doc">
+					<div class="page-header">
+						<h3>Other Features</h3>
+					</div>
+					<h5>Pluggable Modules</h5>
+					<p>Speedy modules can be integrated together like plug-ins.
+						They can enrich capabilities of others, change their
+						configurations and add extra functionalities.</p>
+					<h5>Type Safe Environment</h5>
+					<p>In addition to configuration features with text files such
+						as *.properties and *.yml files, Speedy Framework introduces a
+						type-safe variable definition and usage mechanism, so that
+						environmental variables become easier to follow, and the affected
+						codes can be easily detected after refactoring. Beside Speedy's
+						type-safe configuration they can be overridden by text files as
+						well.</p>
+					<h5>Secure and Easy ThreadLocals</h5>
+					<p>ThreadLocals can only be accessed within the same thread and
+						they must be cleared at the end. Otherwise they may cause
+						information leakage, if their corressponding threads are pooled.
+						Speedy Framework keeps values of thread local variables between
+						sequential requests and safely removes them at the end of
+						request-reponse process, so that the contextual data can be used
+						inter-request operations without the possibility of data leakage
+						caused by dirty thread locals.</p>
+					<h5>Business Events</h5>
+					<p>Business event firing configuration can be made
+						declaratively before or after any service method, or in case of
+						any exception. The published events include the method parameters
+						and the returned value as contextual data.</p>
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer
+ ================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="span5">
+					<!-- logo -->
+					<a class="brand logo" href="index.html"> <img
+						src="assets/img/speedy_framework_logo.png" alt="" width="200px">
+					</a>
+					<!-- end logo -->
+					<br /> &copy; Harezmi IT Solutions - All rights reserved <br />
+					<a href="about.html" class="policy-link">About Us</a> | 
+					<a href="legal/Privacy_Policy.html" class="policy-link">Privacy Notice</a> | 
+					<a href="legal/Terms_of_Use.html" class="policy-link">Terms of Use</a> | 
+					<a href="legal/Cookies_Policy.html" class="policy-link">Cookies Policy</a>
+					<br />
+					<!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Serenity
+              -->
+					Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+				</div>
+				<div class="span4"></div>
+				<div class="span3">
+					<div class="widget">
+						<address><strong>Harezmi Bilişim Çözümleri A.Ş.</strong><br>
+						ODTÜ Teknokent İkizler Binası ZK-3<br/>
+						Üniversiteler Mahallesi<br/> 
+						İhsan Doğramacı Bul. No: 35<br/>
+						Çankaya Ankara Türkiye 06800</address>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript Library Files -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/modernizr.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.elastislide.js"></script>
+	<script src="assets/js/sequence/sequence.jquery-min.js"></script>
+	<script src="assets/js/sequence/setting.js"></script>
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<script src="assets/js/application.js"></script>
+	<script src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/hover/jquery-hover-effect.js"></script>
+	<script src="assets/js/hover/setting.js"></script>
+
+	<!-- Template Custom JavaScript File -->
+	<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

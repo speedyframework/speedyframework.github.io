@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<meta charset="utf-8">
+<title>Speedy Framework - Mimari</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- styles -->
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext:400italic,400,600,700"
+	rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css"
+	rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/color/default.css" rel="stylesheet">
+
+<!-- fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<!-- =======================================================
+    Theme Name: Serenity
+    Theme URL: https://bootstrapmade.com/serenity-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+	<header>
+		<!-- Navbar
+    ================================================== -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- logo -->
+					<a class="brand logo" href="index.tr.html"><img
+						src="assets/img/speedy_framework_logo.png" width="300px" alt=""></a>
+					<!-- end logo -->
+					<!-- top menu -->
+					<div class="navigation">
+						<nav>
+							<ul class="nav topnav">
+								<li><a href="overview.tr.html">Nedir?</a></li>
+								<li><a href="features.tr.html">Özellikler</a></li>
+								<li><a href="download.tr.html">İndir</a></li>
+								<li class="dropdown active"><a href="#">Kaynaklar</a>
+									<ul class="dropdown-menu">
+										<li><a href="quickstart.tr.html">Hızlı Başlangıç</a></li>
+										<li><a href="architecture.tr.html">Mimari</a></li>
+										<li><a href="documentation.tr.html">Referans Doküman</a></li>
+										<li><a href="technologies.tr.html">Teknolojiler</a></li>
+									</ul></li>
+								<li><a href="contact.tr.html">İletişim</a></li>
+								<li><a href="index.en.html"><img
+										src="assets/img/lang/en.png" /> English</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- end menu -->
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Subhead
+================================================== -->
+	<section id="subintro">
+		<div class="jumbotron subhead" id="overview">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="centered">
+							<h3>Mimari Tasarım</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<!-- Docs nav
+    ================================================== -->
+		<div class="row">
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li><a href="#infrastructure"><i
+							class="icon-chevron-right"></i> Altyapı</a></li>
+					<li><a href="#core"><i class="icon-chevron-right"></i>
+							Çekirdek Katman</a></li>
+					<li><a href="#persistence"><i class="icon-chevron-right"></i>
+							Veri Erişimi Katmanı</a></li>
+					<li><a href="#security"><i class="icon-chevron-right"></i>
+							Güvenlik Katmanı</a></li>
+					<li><a href="#ui"><i class="icon-chevron-right"></i>
+							Kullanıcı Arayüzü ve Altyapısal Servisler</a></li>
+				</ul>
+			</div>
+			<div class="span9">
+
+				<!-- Infrastructure
+        ================================================== -->
+				<section id="infrastructure" class="doc">
+					<div class="page-header">
+						<h3>Altyapı</h3>
+					</div>
+					<p>Speedy Framework web tabanlı çok katmanlı kurumsal yazılım
+						projeleri için yaygın olarak kullanılan teknolojileri bir araya
+						getirerek modüler ve entegre bir geliştirme ortamı sunar. Bu
+						modüler ve entegre geliştirme ortamı çeşitli katmanlara ayrılır.
+						Bu katmanlar aşağıdaki gibi 4 ana grup altında toplanabilir:</p>
+					<ol>
+						<li>Çekirdek Katman</li>
+						<li>Veri Erişimi Katmanı</li>
+						<li>Güvenlik Katmanı</li>
+						<li>Kullanıcı Arayüzü ve Altyapısal Servisler</li>
+					</ol>
+					<p>Her bir katman kendi üzerinde yer alan katmandan
+						bağımsızdır. Ancak kendi altında ya da aynı düzeyde yer alan
+						katmanlardaki çeşitli modüllerden yararlanabilir. Örneğin her bir
+						katman çekirdek katmanda yer alan dinamik modül yönetimi
+						kabiliyetini kullanırken, çekirdek katmanda yer alan core modülü
+						başka hiçbir modüle bağımlı değildir. Bu yaklaşım hiyerarşide daha
+						üst seviyelerde yer alan modüllerin kolaylıkla farklı modüllerle
+						değiştirilerek özelleştirilmesine imkan tanır.</p>
+					<center>
+						<img src="assets/img/speedy/architecture.png" width="300px"
+							alt="Architecture">
+					</center>
+					<p>&nbsp;</p>
+					<p>
+						Speedy Framework, hali hazırda yaygın olarak kullanılmakta olan
+						kendine kanıtlamış teknolojilere alternatif çözümler sunmak
+						yerine, bu teknolojilerin nasıl daha etkin bir arada entegre
+						şekilde kullanılacağına odaklanır. Genel altyapı <a
+							href="https://spring.io/projects/spring-framework"
+							target="_blank">Spring Framework</a> üzerine kurgulanmıştır.
+						Spring framework web tabanlı kurumsal uygulamalar için son derece
+						esnek ve stabil bir uygulama geliştirme altyapısı sunmaktadır.
+						Speedy-Core modülünden itibaren tüm Speedy modüllerinde Spring
+						tarafından önerilen dependency injection ve inversion of control
+						prensiplerine uyulur. Speedy modülleri tarafından sunulmakta olan
+						çeşitli servisler bir araya getirilerek Application Context
+						oluşturulur ve oluşturulan context geliştilecek olan uygulamanın
+						hizmetine sunulur. Uygulama geliştiriciler sunulan bu servisleri
+						kendi sınıflarına enjekte ederek kullanırlar. Bu süreçte Speedy
+						Framework, Spring'e alternatif olacak ya da çekışacak herhangi bir
+						yaklaşım, programlama modeli veya kısıt ortaya koymaz.
+					</p>
+				</section>
+
+				<!-- Core
+        ================================================== -->
+				<section id="core" class="doc">
+					<div class="page-header">
+						<h3>Çekirdek Katman</h3>
+					</div>
+					<p>Spring Boot'un popülerliğinin artması ile birlikte
+						Speedy-Core modülü Spring Boot altyapısını kullanır hale
+						getirilmiş ve burada ele alınan bir çok özellik Spring Boot'a
+						delege edilmiştir. Speedy Framework, Spring Boot tarafından
+						sunulan özelliklerden en üst düzeyde yararlanmayı hedefler. Bu
+						yüzden uygulama yaratıldığı ilk anda bu kabiliyetlerin birçoğu
+						aktif haldedir. Uygulama geliştiriciler dilerlerse bunları devre
+						dışı bırakabilir ya da ihtiyaçlarına göre özelleştirebilirler.</p>
+				</section>
+
+				<!-- Persistence Layer
+        ================================================== -->
+				<section id="persistence" class="doc">
+					<div class="page-header">
+						<h3>Veri Erişimi Katmanı</h3>
+					</div>
+					<p>Persistence katmanı hem JDBC, hem de JPA ile çalışabilmek
+						üzere tasarlanmıştır. Bu yüzden bu katmanda JDBC ve JPA'ya özgü
+						opsiyonel modüller yer alır. JDBC altyapısı Spring'in JdbcTemplate
+						altyapısını kullanır. Geliştiriciler Spring tarafından sunulan bu
+						altyapıları kendi sınıflarına enjekte ederek SQL sorguları ile
+						çalışabilirler. Ayrıca bu katmanda Speedy Framework tarafından
+						sade bir ORM altyapısı sunulmaktadır. Bu altyapı JPA'nın ortaya
+						koyduğu persistence context, lazy loading, cache kullanımı gibi
+						detayları ele almaksızın sınıfların veri tabanı tabloları ile
+						eşleştirilmesine olanak tanır. Böylece SQL sorgusu yazılmaksızın
+						programlama yoluyla çeşitli veri tabanı sorguları yapılabilir ve
+						CRUD işlemleri ele alınabilir.</p>
+					<p>
+						JPA altyapısında varsayılan JPA implementasyonu olarak <a
+							href="http://hibernate.org/" target="_blank">Hibernate</a> tercih
+						edilmiştir. speedy-persistence-hibernate modülü uygulamaya dahil
+						edildiğinde, bunun dışında başka bir işleme gerek kalmaksızın
+						Hibernate ile çalışılabilir. Speedy Maven Web Archetype'ı
+						tarafından oluşturulan projelerde bu modül uygulamaya dahil
+						edilmiştir. Uygulama geliştiriciler dilerlerse Hibernate yerine
+						EclipseLink veya başka bir teknoloji ile de çalışabilirler.
+					</p>
+					<p>
+						Speedy Framework tarafından sunulan ve persistence katmanına gerek
+						duyan diğer modüller hem JDBC, hem de JPA ile çalışabilecek
+						şekilde geliştirilmiştir. DAO katmanı <a
+							href="https://spring.io/projects/spring-data" target="_blank">Spring
+							Data</a> altyapısını kullanır. Bahsi geçen her bir modülün hem JDBC
+						ile hem de JPA ile çalışabilecek repository implementasyonları
+						yapılmış olup bunlardan hangisinin kullanılacağına profil
+						tanımları ile karar verilebilir.
+					</p>
+				</section>
+
+				<!-- Security Layer
+        ================================================== -->
+				<section id="security" class="doc">
+					<div class="page-header">
+						<h3>Güvenlik Katmanı</h3>
+					</div>
+					<p>
+						Güvenlik katmanı <a
+							href="https://spring.io/projects/spring-security" target="_blank">Spring
+							Security</a> üzerine bina edilmiştir. Bu katmanda yer alan
+						speedy-security modülü, Spring Security tarafından sunulan
+						kabiliyetleri çeşitli açılardan zenginleştirerek kullanıma sunar.
+						Bu katmanda çeşitli authentication yöntemleri desteklenir. Rol
+						bazlı veya kayıt bazlı yetkilendirme altyapıları sunulur.
+						Kullanıcı, rol ve grup tanımları için hazır servisler ve kritik
+						güvenlik işlemlerinin loglanması gibi çeşitli gereksinimler bu
+						katmanda ele alınır.
+					</p>
+				</section>
+
+				<!-- UI And Infrastructural Services
+        ================================================== -->
+				<section id="ui" class="doc">
+					<div class="page-header">
+						<h3>Kullanıcı Arayüzü ve Altyapısal Servisler</h3>
+					</div>
+					<p>
+						Kullanıcı arayüzlerini geliştirmek için <a
+							href="https://vaadin.com/" href="_blank">Vaadin UI Framework</a>
+						tercih edilmiştir. Vaadin ile tamamen java tabanlı dinamik web
+						uygulamaları geliştirmek mümkündür. speedy-ui-vaadin modülü Vaadin
+						tarafından sunulan bileşenleri i18n, validasyon, model binding
+						gibi çeşitli açılardan zenginleştirerek bunların daha etkin
+						kullanımına imkan tanır. Speedy Framework tarafından geliştirilmiş
+						katma değerli UI modülleri de Vaadin bileşenlerini kullanmaktadır.
+					</p>
+					<p>Speedy Framework UI katmanında MVP (Model-View-Presenter)
+						tasarım örüntüsünü benimsemiştir. Bu örüntüye göre UI
+						bileşenlerinin görsel kısmı View sınıflarında, sevislerle
+						etkileşim halinde olan ve UI iş mantığını barındıran kısım ise
+						Presenter sınıflarında ele alınır. MVP altyapısı ve ayrıca buna ek
+						olarak bileşenler arasında haberleşmeyi sağlayan event mekanizması
+						Speedy tarafından konfigüre edilir ve kullanıma sunulur. Speedy
+						Framework, her ne kadar UI katmanında Vaadin kullanımını tavsiye
+						ediyor olsa da, uygulama geliştiriciler dilerlerse
+						speedy-ui-vaadin modülünü devreden çıkarıp kendi tercih ettikleri
+						UI teknolojisini kullanabilirler. Bu durumda da yine MVP ve event
+						altyapısından yararlanabilirler.</p>
+					<p>Speedy Framework, kurumsal uygulamaların hemen hepsinde
+						ihtiyaç duyulan çoklu dil desteği, validasyon, önbellek (cache)
+						konfigürasyonu, e-posta altyapısı, zamanlanmış görevler, yapılan
+						işleme özgü yardım oluşturma, yapılan işlemlerin iz kayıtlarının
+						takibi, performans izleme, doküman yükleme ve yönetme, veri akışı
+						(streaming) ve raporlama gibi birçok konuda çeşitli servisler ve
+						çözümler sunmaktadır. Bunların her biri ayrı birer modül olarak
+						ele alınmakta olup detayları altyapısal modüller kısmında
+						anlatılmaktadır.</p>
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer
+ ================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+					<div class="widget">
+						<h5>Speedy Framework</h5>
+						<ul class="regular">
+							<li><a href="overview.tr.html">Speedy Framework Nedir?</a></li>
+							<li><a href="features.tr.html">Özellikler</a></li>
+							<li><a href="download.tr.html">İndir</a></li>
+							<li><a href="contact.tr.html">İletişim</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="widget">
+						<h5>Kaynaklar</h5>
+						<ul class="regular">
+							<li><a href="quickstart.tr.html">Hızlı Başlangıç Rehberi</a></li>
+							<li><a href="architecture.tr.html">Mimari</a></li>
+							<li><a href="documentation.tr.html">Referans
+									Dokümantasyon</a></li>
+							<li><a href="technologies.tr.html">Teknolojiler</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="widget">
+						<!-- logo -->
+						<a class="brand logo" href="index.html"> <img
+							src="assets/img/speedy_framework_logo.png" alt="" width="200px">
+						</a>
+						<!-- end logo -->
+						<address><strong>Harezmi Bilişim Çözümleri A.Ş.</strong><br>
+						ODTÜ Teknokent İkizler Binası ZK-3<br/>
+						Üniversiteler Mahallesi<br/> 
+						İhsan Doğramacı Bul. No: 35<br/>
+						Çankaya Ankara Türkiye 06800</address>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="verybottom">
+			<div class="container">
+				<div class="row">
+					<div class="span6">
+						<p>&copy; Harezmi IT Solutions - All rights reserved</p>
+					</div>
+					<div class="span6">
+						<div class="credits">
+							<!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Serenity
+              -->
+							Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript Library Files -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/modernizr.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.elastislide.js"></script>
+	<script src="assets/js/sequence/sequence.jquery-min.js"></script>
+	<script src="assets/js/sequence/setting.js"></script>
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<script src="assets/js/application.js"></script>
+	<script src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/hover/jquery-hover-effect.js"></script>
+	<script src="assets/js/hover/setting.js"></script>
+
+	<!-- Template Custom JavaScript File -->
+	<script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>

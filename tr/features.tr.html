@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Speedy Framework - Özellikler</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- styles -->
+<link
+	href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext"
+	rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/js/google-code-prettify/prettify.css"
+	rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/color/default.css" rel="stylesheet">
+
+<!-- fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+	<header>
+		<!-- Navbar
+    ================================================== -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- logo -->
+					<a class="brand logo" href="index.en.html"><img
+						src="assets/img/speedy_framework_logo.png" width="300px" alt=""></a>
+					<!-- end logo -->
+					<!-- top menu -->
+					<div class="navigation">
+						<nav>
+							<ul class="nav topnav">
+								<li class="dropdown active"><a href="#">Platform</a>
+									<ul class="dropdown-menu">
+										<li><a href="index.tr.html">Ana Sayfa</a></li>
+										<li><a href="features.tr.html">Özellikler</a></li>
+										<li><a href="releases.tr.html">Sürümler</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Öğren</a>
+									<ul class="dropdown-menu">
+										<li><a href="quickstart.tr.html">Hızlı Başlangıç</a></li>
+										<li><a href="comingsoon.tr.html">Referans
+												Dokümantasyon</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Topluluk</a>
+									<ul class="dropdown-menu">
+										<li><a href="http://blog.speedyframework.com"
+											target="_blank">Blog</a></li>
+										<li><a href="http://forum.speedyframework.com"
+											target="_blank">Forum</a></li>
+									</ul></li>
+								<li class="dropdown"><a href="#">Servisler</a>
+									<ul class="dropdown-menu">
+										<li><a href="support.tr.html">Destek</a></li>
+										<li><a href="comingsoon.tr.html">Danışmanlık</a></li>
+									</ul></li>
+								<li><a href="pricing.tr.html">Ücretlendirme</a></li>
+								<li><a href="contact.tr.html">İletişim</a></li>
+								<li><a href="features.en.html"><img
+										src="assets/img/lang/en.png" /> English</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- end menu -->
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Subhead
+================================================== -->
+	<section id="subintro">
+		<div class="jumbotron subhead" id="overview">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="centered">
+							<h3>Detaylı Özellikler</h3>
+							<div class="overview">Kullanıcıların gereksinimlerinin yanı
+								sıra, günümüzün web tabanlı kurumsal uygulamaları birçok
+								altyapısal gereksinim barındırır ve bu gereksinimler
+								geliştiriciler tarafından ele alınması gereken ve ayrıca efor
+								gerektiren ek işlerdir. Speedy Framework bu gereksinimleri
+								karşılamak için onlarca özellik içerir. Bunlar hakkında fikir
+								sahibi olmak için aşağıdaki listeye kısaca göz
+								gezdirebilirsiniz.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+
+		<!-- Docs nav
+    ================================================== -->
+		<div class="row">
+			<div class="span3 bs-docs-sidebar">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li><a href="#persistence"><i class="icon-chevron-right"></i>
+							Veri Erişimi</a></li>
+					<li><a href="#security"><i class="icon-chevron-right"></i>
+							Güvenlik</a></li>
+					<li><a href="#i18n"><i class="icon-chevron-right"></i>
+							Yerelleştirme</a></li>
+					<li><a href="#auditing"><i class="icon-chevron-right"></i>
+							Denetim Kayıtları</a></li>
+					<li><a href="#monitoring"><i class="icon-chevron-right"></i>
+							Performans İzleme</a></li>
+					<li><a href="#reporting"><i class="icon-chevron-right"></i>
+							Raporlama</a></li>
+					<li><a href="#ui"><i class="icon-chevron-right"></i> Ekran
+							Bileşenleri</a></li>
+					<li><a href="#validation"><i class="icon-chevron-right"></i>
+							Validasyon</a></li>
+					<li><a href="#email"><i class="icon-chevron-right"></i>
+							E-posta</a></li>
+					<li><a href="#help"><i class="icon-chevron-right"></i>
+							Yardım</a></li>
+					<li><a href="#file"><i class="icon-chevron-right"></i>
+							Dokümanlar</a></li>
+					<li><a href="#cache"><i class="icon-chevron-right"></i>
+							Önbellek Desteği</a></li>
+					<li><a href="#others"><i class="icon-chevron-right"></i>
+							Diğer Özellikler</a></li>
+				</ul>
+			</div>
+			<div class="span9">
+
+				<section id="persistence" class="doc">
+					<div class="page-header">
+						<h3>Veri Erişimi</h3>
+					</div>
+					<h5>Hem JDBC, Hem Jpa</h5>
+					<p>Speedy Framework modüllerinin veri erişim katmanları hem
+						JDBC hem de JPA ile çalışacak şekilde geliştirildi. Her bir modül
+						diğerlerinden bağımsız olarak veri erişimi için JDBC veya JPA
+						kullanacak biçimde konfigüre edilebilir.</p>
+					<h5>SQL'siz JDBC</h5>
+					<p>JDBC altyapısı veritabanı tabloları ile sınıfları
+						eşleştirmeye izin veren fakat JPA kadar karmaşık olmayan bir ORM
+						mekanizması sunar. Bu sayede veritabanı CRUD işlemleri ve sorgular
+						SQL kullanmadan ele alınabilir. Yapılabilecek sorgulamalar
+						yalnızca belirli bir tablonun sorgulanması ile sınırlı değildir.
+						İstenirse SQL kullanmadan birden çok tablo birleştirilerek
+						karmaşık sorgular da üretilebilir.</p>
+					<h5>Çoklu Müşteri Desteği (Multitenancy)</h5>
+					<p>Speedy Framework aynı veritabanı üzerinden birden çok
+						müşteriye hizmet veren uygulamaların geliştirilmesini
+						kolaylaştırır. Genel olarak müşteri verileri birbirinden tamamen
+						izole olmasına rağmen yönetimsel işlemler için farklı müşterilerin
+						verilerine erişime izin verilebilir. Speedy Framework, müşteri
+						tanımlarının yönetimi (yeni müşteri tanımlama, eskisini kaldırma
+						veya düzenleme) için projelerinizde hazır olarak
+						kullanabileceğiniz yönetimsel ekranları da hazır olarak sunar.
+					<p>Birden çok müşteriye hizmet veren uygulamalarda kullanıcı
+						sisteme giriş yaptığında yapılması gereken ilk iş kullanıcının
+						hangi müşteriye ait olduğunun belirlenmesidir. Bu bilgi kullanıcı
+						adından (kullanıcı@müşteri formatında olmalı) elde edilir ve
+						uygulamanın çeşitli modülleri tarafından kullanılmak üzere
+						bağlamsal bir veri olarak tutulur. Oturum sonunda ise bu bağlamsal
+						veri otomatik olarak silinir.</p>
+					<h5>Domain Nesneleri İçin Temel Sınıflar</h5>
+					<p>Speedy Framework, domain nesneleri için temel ata sınıflar
+						sunar ve çoklu müşteri desteği, versiyonlama (optimistic lock) ve
+						mantıksal silme gibi gereksinimleri veri erişimi mekanizmasından
+						bağımsız olarak hem JDBC, hem de JPA için bu sınıflar üzerinden
+						ele alır.</p>
+					<h5>EntityDao ve EntityService</h5>
+					<p>EntityDao ve EntityService sınıfları herhangi bir domain
+						nesnesi için gerçekleştirilebilecek olan CRUD işlemlerini ele
+						almak için geliştirildi. Bu altyapıları kullandığınızda DAO ve
+						servis katmanı için tek satır kod yazmadan ekleme, silme,
+						güncelleme ve listeleme gibi veri erişimi gerektiren
+						gereksinimleri karşılayabilirsiniz. Özellikle prototipleme
+						aşamasında bu özellikler oldukça işe yaramakta ve hız
+						kazandırmaktadır.</p>
+					<h5>Sorgu Kriteri Altyapısı</h5>
+					<p>Sorgu kriteri altyapısı (search criteria API) domain
+						nesneleri için hem JDBC, hem de JPA üzerinden veri erişiminden
+						bağımsız şekilde dinamik sorgular oluşturmayı sağlar. Arama
+						işlemleri için geliştirilmiş ekran bileşenleri arka planda bu
+						altyapıyı kullanır ve bu da söz konusu ekran bileşenlerini veri
+						erişim detaylarından bağımsız biçimde kullanmaya olanak sağlar.</p>
+					<h5>Sayfalama ve "LazyList"</h5>
+					<p>Veritabanı tabloları milyonlarca kayıt içerebilir fakat bu
+						kayıtları listeleyen ekran bileşenleri bunların tümünü bir çırpıda
+						ele alamaz. Bu nedenle kurumsal uygulamalar sıklıkla sayfalama ve
+						verinin ihtiyaç halinde sonradan veritabanından çekilmesine
+						yönelik çözümler kullanırlar. Speedy Framework, bunun için
+						"PageableQuery" ve "LazyList" adında iki çözüm sunar.
+						PageableQuery sorgulanan verileri sayfalar halinde veritabanından
+						çeker. Bu altyapı üzerine kurulu LazyList ise verileri
+						veritabanından çekme işlemini bu verilere ilk erişime kadar
+						öteleyen bir listedir. LazyList arka planda ele almakta olduğu
+						karmaşık veri erişim detaylarını yazılım geliştiricilerden
+						soyutladığı için, LazyList'in kullanım açısından diğer liste
+						geliştirimlerinden hiçbir farkı yoktur.</p>
+					<h5>Mantıksal Silme</h5>
+					<p>Önemli verileri veri tabanından tamamen silmek yerine
+						mantıksal silme özelliğini kullanarak silindi şeklinde
+						işaretleyebilirsiniz. Bu verileri daha sonra tekrar geri alabilir,
+						ya da tamamen sistemden kaldırabilirsiniz.</p>
+					<h5>Kritik Veri Değişiklikleri Sonrası Etkilenen Bean'lerin
+						Tekrar Yüklenmesi</h5>
+					<p>Application context içerisinde veritabanındaki bir takım
+						verilere göre konfigüre edilmiş bean'ler olabilir. Bu veriler
+						değiştirildiğinde bu bean'ler de yeniden konfigüre edilmelidir. Bu
+						bean tanımlarını yaparken bunları annotasyon ile işaretlerseniz,
+						Speedy Framework ilgili verilerin değişmesi ya da bir takım
+						event'lerin fırlatılması durumunda bu bean'leri yeniden yaratır.
+						Böylece yapılan değişiklikler uygulamayı baştan başlatmadan anında
+						devreye alınmış olur. Güvenlik ile ilgili kısımlar bu özellikten
+						geniş çapta faydalanır.</p>
+					<h5>Örnek Veri Oluşturma (Sample Data Provider)</h5>
+					<p>Spring Boot'un SQL bazlı veri oluşturma altyapısının
+						yanısıra, Speedy Framework, servis ve DAO altyapılarını da
+						kullanarak SQL yazmadan kodlama yoluyla veri üretmeye imkan
+						sağlayan ve "Sample Data Provider" olarak anılan bir mekanizmaya
+						sahiptir.</p>
+					<h5>H2 Veritabanı Debug</h5>
+					<p>H2 verileri bellekte ya da dosya sisteminde saklayabilen
+						Java tabanlı basit bir veritabanıdır. Uygulama çalışırken Spring
+						Boot tarafından sunulan H2-Console endpoint'ini kullanarak
+						veritabanındaki verileri inceleyebilirsiniz. Bunun yanısıra
+						SpeedyFramework, H2Debugger ile kodlamanın herhangi bir aşamasında
+						mevcut işletimi durdurup H2-Console üzerinden verileri
+						incelemenize olanak verir. Açılan H2-Console varsayılan web
+						tarayıcısı üzerinden görüntülenir ve mevcut transaction altında
+						çalışır. Böylece henüz commit edilmemiş verileri görebilirsiniz.
+						Bu kabiliyetten özellikle işletim sonrasında roll-back edilecek
+						olan transactional test metodlarından anlık veriyi incelemek için
+						yararlanabilirsiniz.</p>
+				</section>
+
+				<section id="security" class="doc">
+					<div class="page-header">
+						<h3>Güvenlik</h3>
+					</div>
+					<h5>Kullanıclar, Roller ve Kullanıcı Grupları</h5>
+					<p>Uygulamalarınızda doğrudan kullanabileceğiniz kullanıcı, rol
+						ve kullanıcı gruplarına yönelik yönetimsel ekranlar Speedy
+						Framework tarafından hazır olarak gelir. Bu ekranları kullanarak
+						yeni bir kayıt oluşturabilir, mevcut bir kaydı düzenleyebilir veya
+						silebilirsiniz. Ayrıca rol ve grup hiyerarşileri oluşturabilir,
+						kullanıcı ve gruplara rol atayabilir, gruplara kullanıcı ekleyip
+						çıkarabilir ya da kullanıcıların parolalarını sıfırlayabilirsiniz.
+						Bunlara ek olarak, Speedy Framework, bu işlemlerden kullanıcı
+						oluşturma ve parola yenileme sonrasında otomatik olarak
+						kullanıcıya bir e-posta ile bildirimde bulunmaktadır. Ayrıca
+						kullanıcıların kendi profillerini güncellemek ve prolalarını
+						değiştirmek için kullanabilecekleri ekranlar da mevcuttur.</p>
+					<h5>Kaynaklara Erişimin Kısıtlanması</h5>
+					<p>ACL (Access Control List) kritik kaynaklara erişimlerin
+						kısıtlanması için sıklıkla kullanılan yöntemlerden en bilinenidir.
+						Speedy uygulamalarında herhangi bir kaynağa erişimi kısıtlamak
+						için ACL kullanabilirsiniz. Uygulamalarınızda doğrudan
+						kullanabileceğiniz yönetimsel ektranlar ile kaynaklar için ACL
+						konfigürasyonlarını kolaylıkla yapabilir ve mevcut
+						konfigürasyonları uygulamayı yeniden başlatmaya gerek kalmadan
+						güncelleyebilirsiniz.</p>
+					<h5>Güvenlik Denetim Kayıtları ve Olay Takibi</h5>
+					<p>Güvenlik event'leri kimliklendirme ve yetkilendirme
+						aşamalarında otomatik olarak üretilir. Güvenlik denetim kayıtları
+						bu event'ler üzerinden yaratılır ve ileri analizler için
+						veritabanında saklanır. Speedy Framework, bu kayıtları incelemek
+						için kullanabileceğiniz ekranları da hazır olarak sunar. Ayrıca,
+						eğer arzu ederseniz, kendi projeleriniz için güvenlik event'lerini
+						dinleyen sınıflar yazabilir daha detaylı analizler yapabilirsiniz.</p>
+					<h5>Uygulama Üzerinden Http Güvenliğini Güncelleme</h5>
+					<p>Spring Security belirli URL'lere erişimleri kısıtlayacak
+						şekilde konfigüre edilebilmektedir. Speedy Framework bu
+						konfigürasyonu uygulama üzerinden güncellenebilir hale getirir.
+						URL'lere erişim konfigürasyonlarını uygulamayı yeniden başlatmaya
+						gerek kalmadan ilgili ekranları kullanarak güncelleyebilirsiniz.</p>
+					<h5>Oturum Açıldığında Belirli Bir Sayfaya Yönlendirme</h5>
+					<p>Kurumsal uygulamalar genellikle uygulamanın farklı yönlerine
+						odaklanmış çeşitli kullanıcı grupları içerir. Örneğin satış
+						temsilcileri için müşteri yönetim ekranı ana odak noktası olurken
+						bu ekran insan kaynakları uzmanı için hiçbir anlam ifade
+						etmeyebilir. Speedy Framewok'ün yönlendirme mekanizmasını
+						kullanarak sisteme giriş yapan satış temsilcilerini müşteri
+						ekranına, insan kaynakları uzmanlarını ise organizasyon yönetim
+						ekranına yönlendirebilirsiniz. Bu işlemler için kullanabileceğiniz
+						yönetimsel ekranlar Speedy Framework tarafından hazır olarak
+						sunulur.</p>
+					<h5>Oturum Açmış Kullanıcılar İçin Giriş Sayfasını Engelleme</h5>
+					<p>Başarılı bir oturum açma işleminin ardından kullanıcının bir
+						şekilde giriş sayfasına tekrar erişmesi hem anlamsız hem de bazı
+						durumlarda kafa karıştırıcıdır. Bu nedenle Speedy Framework oturum
+						açmış kullanıcıların tekrar giriş sayfasına erişmesini engeller ve
+						onları uygulamanın ana sayfasına yönlendirir.</p>
+					<h5>Kimliklendirmeyi Devre Dışı Bırakma</h5>
+					<p>Geliştirme süresince geliştiriciler sıklıkla ne
+						geliştirdiklerini somut olarak görmek için belirli bir kullanıcı
+						ile uygulamaya bağlanırlar. Birkaç denemeden sonra sürekli giriş
+						sayfası üzerinden oturum açarak ilgili ekrana erişmek oldukça can
+						sıkıcı olabilir. Speedy Framework oturum açma sürecini belirli bir
+						kullanıcı için devre dışı bırakmaya izin verir. Bu sayede
+						geliştiriciler kullanıcı adı ve parola girdikleri giriş sayfasını
+						atlayarak doğrudan uygulamanın ana sayfasına geçebilirler. Bu
+						özellik, geliştirme aşamasında gözle görülür bir hızlanma sağlar.</p>
+					<h5>Vekaleten Yapılan İşlemler (User Substitution)</h5>
+					<p>Kullanıcılar bazı işlemleri farklı kullanıcılar adına
+						vekaleten gerçekleştirebilirler. Vekalet kuralları konfigüre
+						edilebilir ve bu işlemlere ilişkin denetim kayıtları hem gerçek
+						kullanıcının bilgisini hem de adına vekaleten işlem yapılan
+						kullanıcının bilgisini içerir.</p>
+					<h5>Captcha Desteği</h5>
+					<p>Captcha tekrarlayan kötü niyetli oturum açma girişimleri ile
+						kullanıcıların parolalarını tahmin ederek elde etmeye yönelik
+						saldırıları engeller. Captcha, oturumun bir bilgisayar tarafından
+						değil gerçek bir kişi tarafından açıldığını garanti eder. Speedy
+						Framework captcha için kullanıma hazır, istendiğinde devreye
+						alınıp devre dışı bırakılabilecek bir altyapı sunar.</p>
+					<h5>IP Kısıtlamaları</h5>
+					<p>Kurumsal uygulamalar bazı kullanıcıların kurum dışından ya
+						da belirli bir bölgenin dışından işlem yapmasını engellemeye
+						yönelik güvenlik gereksinimleri olabilir. Speedy Framework buna
+						yönelik olarak oturum açma esnasında varsayılan olarak IP kontrolü
+						de yapar. Eğer bir kullanıcının yalnızca belirli bir IP bloğu
+						içerisinden işlem yapmasına izin vermek isterseniz kullanıcı
+						yönetim ekranı üzerinden ilgili IP bloğunu tanımlamanız
+						yeterlidir.</p>
+					<h5>Parola Yönetimi</h5>
+					Kurumsal uygulamalar sıkı güvenlik politikalarına bağlıdırlar ve
+					kullanıcı parolalarının güvenliği bunların merkezinde yer alır.
+					Spring Security parolaları güvenli bir şekilde saklamaya yönelik
+					gereksinimleri zaten karşılamaktadır. Speedy Framework bunu daha
+					kullanışlı kılmak için bir takım özelliklerle destekler.
+					<p>Parolalar için belirli bir geçerlilik süresi olmalı ve bu
+						süre aşıldığında periyodik olarak değiştirilmelidir. Speedy
+						Framework geçerlilşk sürelerini kontrol eder ve şayet parola
+						geçerliliğini yitirmişse kullanıcıyı parola değiştirme ekranına
+						yönlendirir.
+					<p>Sistem yöneticilerin kullanıcıların parolalarını
+						güncellemesi engellenebilir. Onlara sadece parola sıfırlama izni
+						verilerek parolaların kullanıcıların özelinde kalması
+						sağlanabilir. Parola sıfırlama sonrasında yeni parola kullanıcıya
+						e-posta ile bildirilir ve böylece sistem yöneticileri kullanıcının
+						yeni parolasını görmemiş olur.</p>
+					<h5>Sayfa Düzeyinde Yetkilendirme</h5>
+					<p>Sayfa düzeyinde yetkilendirme ile herhangi bir ekran
+						bileşeni için okuma veya yazma amaçlı erişimler ya da ekran
+						üzerindeki işlemler kullanıcı, rol veya kullanıcı grubu bazında
+						kısıtlanabilir.</p>
+					<h5>Root Erişimi</h5>
+					<p>Root erişimi bilgisayar sistemlerinde herhangi bir dosya
+						veya işlem için sınırsız yetki verir ve root kullanıcısı sistemde
+						herşeyi yapabilir. Speedy Framework bu kavramı kurumsal
+						uygulamalar için kullanır. Speedy Framework uygulama içerisinde
+						herşeyi yapmaya yetkili bir root kullanıcısı ve root rolü
+						tanımlar. Daha sonra kolaylıkla devre dışı bırakılabilen bu
+						özellik sayesinde yetki kontrolleri devre dışı kalacağı için
+						doğrudan iş mantığına odaklanılır ve geliştirme sürecinde gözle
+						görülür bir hızlanma sağlanır.</p>
+				</section>
+
+				<section id="i18n" class="doc">
+					<div class="page-header">
+						<h3>Yerelleştirme</h3>
+					</div>
+					Spring'in MessageSource altyapısı kurumsal uygulamalar için güçlü
+					bir yerelleştirme özelliğidir. MessageSource, mesajların
+					*.properties dosyalarından çözümlenmesini sağlar ve bu dosyalardaki
+					değişikliklere göre taşımakta olduğu mesajları güncelleyebilir.
+					Speedy Framework bunu bir adım ileri taşır ve mesajların uygulama
+					ekranları üzerinden güncellenmesine imkan tanır. Ayrıca bu ekranlar
+					üzerinden farklı ve yeni dil destekleri de kolaylıkla eklenebilir.
+					Dinamik ekran ve raporlama araçları ile birlikte çoklu dil
+					desteğine sahip ekran bileşenleri ve raporlar kolaylıkla
+					tasarlanabilir.
+					<p>Her ne kadar MesssageSource bir Spring bean'i olsa da bu
+						bean raporlama gibi Spring'den bağımsız kütüphaneler ile çalışan
+						kısımlarda da ResourceBundle gibi görülerek kullanılabilir.
+					<p>Geçerli kullanıcının locale bilgisi kullanıcı ayarlarından,
+						request üzerinden ya da bir cookie vasıtası ile elde edilebilir ve
+						bu bilgi ilgili ekran bileşenleri ile değiştirilebilir. Diğer
+						modüller ve ekran bileşenleri locale değişikliklerinden anında
+						haberdar edilirler ve kendilerini yeni locale bilgisine göre
+						düzenlerler.
+					<p>Ekran bileşenlerinin başlıkları deklaratif bir şekilde
+						yerelleştirilebilirler ve bunların yerel mesaj karşılıkları
+						otomatik olarak görüntülenebilir.
+					<h5>Yerelleştirilmiş Enum Değerleri</h5>
+					<p>Enum değerleri kolaylıkla yerelleştirilebilir. Eğer enum
+						değerinin tam adı (fully qualified name) ile tanımlı bir mesaj
+						varsa enum değeri olarak bu mesaj görüntülenir.</p>
+					<h5>Yerelleştirilmiş Hata Mesajları</h5>
+					<p>Bazı özel hata tipleri (message aware runtime exceptions)
+						için hata mesajları yerelleştirilmiş olarak görüntülenir.</p>
+					<h5>Bölgesel Ayarların Güncellenmesi</h5>
+					<p>Kullanıcı profil ekranı bölgesel ayarlar için bir bölüm
+						içerir ve kullanıcılar bunu kullanarak varsayılan dil, ülke,
+						time-zone ve para birimi ayarlarını değiştirebilirler.</p>
+				</section>
+
+				<section id="auditing" class="doc">
+					<div class="page-header">
+						<h3>Denetim Kayıtları</h3>
+					</div>
+					<p>Servis ve entity düzeyinde denetim kayıtlarının toplanması
+						deklaratif bir şekilde konfigüre edilebilir ve sistem yöneticileri
+						bunları kullanarak metod çağrılarının izini sürebilir, hangi
+						kaydın hangi kısmının kim tarafından ne zaman değiştirildiğini
+						görebilirler. Denetim kayıtları kategorize edilebilirler ve her
+						modül kendi kategorilerini tanımlayabilir. Denetim kayıtları ekran
+						üzerinden analiz edilebilir.</p>
+				</section>
+
+				<section id="monitoring" class="doc">
+					<div class="page-header">
+						<h3>Performans İzleme</h3>
+					</div>
+					<p>Speedy Framework en düşük, en yüksek ve ortalama metod
+						süreleri gibi çalışma zamanı istatistiklerini toplar.Sistem
+						yöneticileri bunları uygulama ekranı üzerinden analiz ederek
+						darboğaz noktaları hakkında ipuçları elde edebilirler. Performansı
+						gözlenecek metodlar XML veya annotasyon kullanılarak deklaratif
+						bir şekilde belirtilebilir. Performans izleme işlemi ekran
+						üzerinden uygulamayı yeniden başlatmaya gerek kalmadan açılıp
+						kapatılabilir.</p>
+				</section>
+
+				<section id="reporting" class="doc">
+					<div class="page-header">
+						<h3>Raporlama</h3>
+					</div>
+					<p>Speedy Framework uygulamalarınızda kullanabileceğiniz bir
+						raporlama ekranını hazır olarak sunar. Bu ekran kullanıcıların
+						rapor parametrelerini girerek PDF, XLS, DOC ve HTML gibi çeşitli
+						formatlarda raporlar oluşturmasını sağlar. Oluşturulan raporlar
+						ekranda görüntülenebilir, dosya olarak indirilebilir ya da bir
+						e-posta adresine gönderilebilir.
+					<p>Raporlama ekranı aynı zamanda sistem yöneticileri tarafından
+						raporlara erişim kısıtları tanımlamak için de kullanılır. Erişim
+						kısıtlamaları ACL altyapısını ve kaynak düzeyinde yetkilendirme
+						özellikleri kullanılarak yapılır.</p>
+					<h5>Dinamik Raporlama</h5>
+					<p>Dinamik raporlama aracı ile fıfırdan yeni bir rapor
+						tanımlanabildiği gibi mevcut raporların baştan sona düzenlenmesi
+						de mümkündür. Görsel değişiklikler rapor elemanlarının sürüklenip
+						bırakılmasıyla kolaylıkla yapılabilir.</p>
+					<h5>Rapor Sunucusu</h5>
+					<p>Speedy Framework rapor isteklerini karşılamak için bir
+						endpoint sunar.Kullanıcılar buraya rapor isteklerini gönderirler
+						ve oluşturulan rapor cevap olarak dönülür. Rapor istekleri için
+						kullanılan istekler kaydedilebilir ve bunlar kullanılarak aynı
+						rapor tekrar üretilebilir. Böylece zaman içerisinde ortaya çıkan
+						veri değişiklikleri gözlenebilir. Bu kabiliyet aynı zamanda
+						interaktif drill-down raporlar için de yararlıdır. Bu tür
+						raporlarda rapor satırları detay rapora erişmek için bağlantılar
+						içerir ve bu bağlantılar PDF ve XLS formatlarında bile
+						kullanılabilir.</p>
+
+				</section>
+
+				<section id="ui" class="doc">
+					<div class="page-header">
+						<h3>Ekran Bileşenleri</h3>
+					</div>
+					<h5>Model View Presenter ve Event'ler</h5>
+					<p>Vaadin sayesinde ekran bileşenleri Java ile kolaylıkla
+						geliştirilebilir. Fakat bu kolaylık yazılım geliştiricileri bütün
+						kodu ekran bileşenleri için yarattıkları sınıfların içerisine
+						yazmaya itmememelidir. Ekran bileşenlerinin görünümüne ve sunum
+						mantığına yönelik kısımlar ayrılmalıdır. MVP
+						(Model-View-Presenter) tasarım şablonu bunu tavsiye eder. Speedy
+						bu tavsiyeye önem verir ve ekran bileşenleri için MVP kullanımına
+						yönlendirir.
+					<p>Günümüzün interaktif web uygulamaları ekran bileşenlerinin
+						birbiri ile iletişim halinde olmasını gerektirir. Bu durum ekran
+						bileşeni sınıflarını birbirine bağımlı hale getirir ve bu da kodun
+						yönetimini zorlaştırır. Bu istenmeyen bağımlılıkları önlemek ve
+						ekran bileşenleri arasındaki etkileşimi kolaylaştırmak için,
+						Speedy Framework bir event altyapısı sunar. Oluşturulan event'ler
+						aynı zamanda Spring'in event listener bean'leri tarafından da ele
+						alınabilirler.</p>
+					<h5>Kullanıma Hazır Ana Sayfa, Giriş ve Hata Ekranları</h5>
+					<p>İlk izlenim önemlidir ve web uygulamaları için ilk izlenimi
+						ana sayfa verir. Speedy Framework ana sayfa, giriş sayfası ve hata
+						sayfasını uygulamanızda kullanabilmeniz için hazır olarak sunar.
+						Bu sayfaları doğrudan kullanabilir, bazı kısımlarını
+						değiştirebilir ya da tamamen kendi geliştirdikleriniz ile ikame
+						edebilirsiniz. Eğer isterseniz bu sayfalardaki ekran
+						bileşenlerinin yerleşimini uygulama üzerinden dinamik ekran
+						tasarım aracı ile en baştan düzenleyebilirsiniz.</p>
+					<h5>Dinamik Ekran Tasarımı</h5>
+					<p>Sayfalardaki ekran bileşenlerinin yerleşimi sürükle bırak
+						yöntemiyle kolaylıkla düzenlenebilir. Speedy Framework kullanıma
+						hazır ekranlar ve şablon ekran bileşenleri sunar fakat sabit bir
+						tasarımı kullanmaya zorlamaz.</p>
+					<h5>Bilgi ve Onay Mesajları</h5>
+					<p>Speedy Framework bilgi ve onay mesajları için bir altyapı
+						sunar. Yerelleştirilmiş bilgi ve hata mesajları servis katmanından
+						dönen cevaba göre otomatik olarak görüntülenebilir. Onay
+						gerektiren presenter metodları bir annotasyon yardımıyla
+						işaretlenir ve bu metodlar çalıştırılmadan önce onay akışı Speedy
+						Framework tarafından otomatik olarak sürdürülür.</p>
+					<h5>Genel Hata Yakalama</h5>
+					<p>Alt katmanlar tarafından ele alınmamış hatalar istemciye
+						cevap dönmeden hemen önce yakalanır ve uygun bir hata mesajı
+						görüntülenir. Eğer hata türü yerelleştirilmiş bir mesaj elde
+						etmeye uygunsa bu mesaj görüntülenir. Değilse standart bir hata
+						mesajı görüntülenerek senaryonun çakılmadan sakin bir şekilde
+						işletilmesi sağlanır.</p>
+					<h5>Domain Model'in Ekrana Deklaratif Şekilde Bağlanması</h5>
+					<p>Speedy Framework ekran bileşenlerinin annotasyonlar ile
+						deklaratif bir şekilde domain model nesnelerine bağlanmasına imkan
+						verir.</p>
+					<h5>Kaydedilmemiş Verilerin Tespiti</h5>
+					<p>Web tabanlı uygulamalarda mevcut senaryo sonlanmadan önce
+						kaydedilmemiş değişiklikler varsa kullanıcının uyarılması genel
+						bir gereksinimdir. Speedy Framework bunun için hazır bir altyapı
+						sunar.</p>
+					<h5>CRUD İçin Liste ve Detay Şablonları</h5>
+					<p>Kurumsal uygulamalarda kullanıcı senaryolarının büyük bir
+						kısmı CRUD işlemlerinden oluşabilir. CRUD işlemleri arama ve
+						filtreleme özelliği bulunan bir liste ile kayıtları güncellemek
+						için kullanılacak bir veya birden fazla detay formu gerektirir.
+						Speedy Framework liste ve detay şablonlarını hazır olarak sunar.
+						Bunları kullanarak arama, listeleme, ekleme, silme, güncelleme
+						gibi özellikler barındıran tam bir CRUD senaryosunu dakikalar
+						içinde geliştirebilirsiniz. Bu altyapı arka planda EntityDao ve
+						EntityService sınıflarını kullandığı için servis ve DAO
+						katmanlarında herhangi bir geliştirme yapmanıza da gerek yoktur.
+						Liste ve detay şablonları sayfalama, filtreleme ve toplu işlem
+						yapabilme özelliklerine de sahiptir ve genel görünümleri dinamik
+						ekran tasarım aracı ile uygulama üzerinden değiştirilebilir.</p>
+					<h5>Menü ve Senaryolar Arası Geçişler</h5>
+					<p>Speedy Framework kullanıcı senaryoları için geliştirilmiş
+						olan sayfa sınıfları üzerindeki bazı annotasyonları tarayarak
+						menüyü otomatik olarak oluşturur, senaryolar arası geçişi ve
+						breadcrumb'ı konfigüre eder. UI modülleri kendi yönetimsel
+						ekranlarını menüde uygun bir yere yerleştirmek için bu altyapıyı
+						kullanır. Menüdeki yerleşimler, başlıklar ve ikonlar yönetimsel
+						ekranlar üzerinden uygulama çalışırken değiştirilebilirler.</p>
+					<h5>Dashboard</h5>
+					<p>Küçük ekran bileşenleri geliştirip Speedy Framework'ün hazır
+						altyapısı altında bir araya getirerek bir dashboard
+						oluşturabilirsiniz. Dashboardlar kullanıcılar tarafından
+						özelleştirilip kişiselleştirilebilir.</p>
+					<h5>View Model</h5>
+					<p>Domain model nesneleri Speedy Framework tarafından
+						proxy'lenerek bunlara ekranlarda kullanıma özgü yeni kabiliyetler
+						kazandırılabilir. Bu kabiliyetlerden en önde geleni otomatik
+						olarak değişiklik takibi kabiliyetidir. Bu sayede değişen alanlar
+						tespit edilebilir, collectionlara eklenen veya çıkarılan kayıtlar
+						elde edilebilir. Ekran geçişleri arasında sisteme yansıtılmamış
+						değişiklikler varsa bu yolla tespit edilebilir.</p>
+					<h5>Araç Çubukları</h5>
+					<p>Sayfalardaki komutları barındıran araç çubukları,
+						annotasyonlarla işaretlenmiş metodların taranması ile otomatik
+						olarak oluşturulurlar. Bu işlem esnasında her bir metod bir butona
+						dönüşür ve bu butonların görünümleri, başlıkları ve sayfa
+						düzeyinde yetkilendirmeye göre ne zamanaktif veya pasif olacakları
+						deklaratif bir şekilde tanımlanabilir. Yapılan tanımlar ilgili
+						sınıfın extend edilmesi ve ilgili metodların override edilmesi
+						yoluyla özelleştirilebilir. .</p>
+					<h5>Ekran Bileşenlerinin Test Edilmesi</h5>
+					<p>Vaadin Test Bench ekran bileşenlerini test etmeyi oldukça
+						kolaylaştırmaktadır. Eğer geçerli bir Vaadin Test Bench lisansınız
+						varsa ve bunu projenizde kullanmak istiyorsanız Speedy
+						Framework'ün uygulamayı her test başında ayağa kaldırma, otomatik
+						web driver yönetimi ve test sonunda işletimin bekletilmesi ve
+						kullanıcının ekran ile etkileşim kurmasına izin vermesi gibi
+						tamamlayıcı özelliklerinden yararlanabilirsiniz.</p>
+				</section>
+
+				<section id="validation" class="doc">
+					<div class="page-header">
+						<h3>Validasyon</h3>
+					</div>
+					<p>Speedy Framework JSR-303 tabanlı, servis düzeyinde
+						deklaratif veya entity düzeyinde programatik validasyon kabiliyeti
+						sunar. Servis düzeyinde ortaya çıkan validasyon hataları
+						yerelleştirilmiş mesajlar olarak görüntülenir ve ilgili ekran
+						bileşenleri otomatik olarak işaretlenir.</p>
+
+				</section>
+
+				<section id="email" class="doc">
+					<div class="page-header">
+						<h3>E-posta</h3>
+					</div>
+					<p>Speedy Framework hem senkron hem de asenkron e-posta
+						gönderimini destekler. Senkron gönderim esnasında bir hata
+						oluştuğunda kullanıcı doğrudan uyarılır. Asenkron gönderimde ise
+						birkaç dakika sonunda gönderim tekrar denenir. Sistem yöneticileri
+						gönderilen tüm e-posta mesajlarını listeleyebilir veya
+						düzenleyebilir. Eğer isterlerse yeni bir e-posta mesajı da
+						oluşturup belirli bir adrese sistem üzerinden gönderebilirler.</p>
+
+				</section>
+
+				<section id="help" class="doc">
+					<div class="page-header">
+						<h3>Yardım</h3>
+					</div>
+					<h5>Bağlama Göre Yardım İçeriği</h5>
+					<p>Yardım içerikleri oluşturulurken o anki bağlam (işletilen
+						senaryo, bulunulan sayfa ve mevcut locale gibi) dikkate alınarak
+						yardım içerikleri oluşturulur. Yardım içeriği veritabanında ya da
+						dosya sisteminde tutulabilir ve bu içeriğe REST ile erşilebilir.</p>
+
+				</section>
+
+				<section id="file" class="doc">
+					<div class="page-header">
+						<h3>Dokümanlar</h3>
+					</div>
+					<p>Çoğu kurumsal uygulama doküman ve dosyalar ile yakın ilişki
+						halindedir. Speedy Framework doküman yükleme, indirme , içeriğini
+						güncelleme ve versiyonlama için REST tabanlı bir altyapı sunar.
+						Dokümanlar veritabanında veya dosya sisteminde saklanabilir.</p>
+
+				</section>
+
+				<section id="cache" class="doc">
+					<div class="page-header">
+						<h3>Önbellek Desteği</h3>
+					</div>
+					<p>Speedy Framework önbellek erişimi için çoklu müşteri desteği
+						ve önbellek içeriğini debug etme imkanı sağlar.</p>
+
+				</section>
+
+				<section id="others" class="doc">
+					<div class="page-header">
+						<h3>Diğer Özellikler</h3>
+					</div>
+					<h5>Modüler Entegrasyon</h5>
+					<p>Speedy modülleri plug-in'ler gibi bir araya getirilip
+						entegre edilebilirler. Bir modül diğer bir modülün
+						konfigürasyonunu değiştirebilir, sunmakta olduğu bir özelliği
+						genişletebilir veya ona yeni özellikler kazandırabilir.</p>
+					<h5>Type-Safe Ortam Değişkenleri</h5>
+					<p>Metin bazlı *.properties ve *.yml ile ortam değişkenlerinin
+						tanımlanmasının yanı sıra Speedy Framework type-safe tanımlama
+						yapmaya imkan veren bir mekanizma sunar. Böylece ortam
+						değişkenleri daha kolay takip edilebilir ve refactoring
+						çalışmaları sonrasında etkilenen kod kısımları daha kolay tespit
+						edilir. İstenirse bu şekilde yapılan konfigürasyon *.properties ve
+						*.yml dosyaları ile override edilebilir.</p>
+					<h5>Güvenli ve Kolay ThreadLocal Yönetimi</h5>
+					<p>ThreadLocal değişkenlerine ancak mevcut thread içerisinden
+						erişilebilir ve bu değişkenler işlem sonunda mutlaka
+						temizlenmelidir. Aksi takdirde eğer bu thread pool içerisinden
+						tekrar kullanıma alınırsa, bu durum veri sızıntısına sebep olur.
+						Speedy Framework ThreadLocal değişkenleri ardışık istekler
+						(request) arasında paylaşmaya ve istek-cevap akışının sonunda
+						otomatik olarak silmeyi sağlayan bir altyapı sunar. Böylece
+						bağlamsal veri farklı istek-cevap akışlarında erişilebilir olur ve
+						akış sonunda ThreadLocal güvenle temizlendiği için veri sızıntısı
+						ihtimali ortadan kalkar.</p>
+					<h5>Business Event Mekanizması</h5>
+					<p>Herhangi bir servis çağrısından hemen önce, hemen sonra ya
+						da hata durumunda business event fırlatımı annotasyonlar ile
+						deklaratif bir şekilde gerçekleştirilebilir. Fırlatılan event'ler
+						metod parametrelerini ve dönen değerleri içerir.</p>
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer
+ ================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="span5">
+					<!-- logo -->
+					<a class="brand logo" href="index.html"> <img
+						src="assets/img/speedy_framework_logo.png" alt="" width="200px">
+					</a>
+					<!-- end logo -->
+					<br /> &copy; Harezmi IT Solutions - All rights reserved <br />
+					<!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Serenity
+              -->
+					Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+				</div>
+				<div class="span4"></div>
+				<div class="span3">
+					<div class="widget">
+						<address><strong>Harezmi Bilişim Çözümleri A.Ş.</strong><br>
+						ODTÜ Teknokent İkizler Binası ZK-3<br/>
+						Üniversiteler Mahallesi<br/> 
+						İhsan Doğramacı Bul. No: 35<br/>
+						Çankaya Ankara Türkiye 06800</address>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- JavaScript Library Files -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/modernizr.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/jquery.elastislide.js"></script>
+	<script src="assets/js/sequence/sequence.jquery-min.js"></script>
+	<script src="assets/js/sequence/setting.js"></script>
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+	<script src="assets/js/application.js"></script>
+	<script src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/hover/jquery-hover-effect.js"></script>
+	<script src="assets/js/hover/setting.js"></script>
+
+	<!-- Template Custom JavaScript File -->
+	<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

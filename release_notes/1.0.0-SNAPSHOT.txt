@@ -1,0 +1,4 @@
+SPEEDY FRAMEWORK VERSION 1.0.0-SNAPSHOT RELEASE NOTES
+
+This is the first release of Speedy Framework. You can see the initial feature 
+set from http://www.speedyframework.com/features.html  
